@@ -3,7 +3,7 @@ A ideia é ter um Bot para interação em channeis IRC, por hora, apenas algumas
 O nome Angel é referente à uma hacker em BorderLands-2 cujo nickname é Angel, ela se sacrifica para salvar o mundo, achei do caralho e quis dar o nome em homenagem.
 
 #### Dependencias:
-Algumas que eu ainda não mapiei, mas tem uma porrada de coisa no código, como ainda é um esboço, não vou citar todos pois vou remover muita coisa pra enxutar o código.
+Algumas que eu ainda não foram mapeadas, mas tem uma porrada de coisa no código, como ainda é um esboço, não vou citar todos pois vou remover muita coisa pra enxutar o código.
  - tor ( localhost:9050 )
  - python3.5
 
@@ -12,7 +12,7 @@ Bom, o script não está pronto. Mas para a utilização básica, ele conecta no
 Ela acessa o irc atráves da onion, as requisições para identificar um site também são feitas pela onion para preservar a localização do bot.
   
 #### To Do
-  - Problemas de desempenho precisam ser corrigidos.
+  - Problema de desempenho precisa ser corrigido, porém, utilizar o bot dentro da rede Tor impacta em desempenho, não pelo bot, mas pela rede.
   - Melhorar o tratamento do regex, se possvel utilizar outra forma de reconhecer os links.
   
 ###### yes, i know, the source are a shit
